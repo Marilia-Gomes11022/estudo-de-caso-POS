@@ -7,6 +7,7 @@ from .extensions import db, ma, migrate
 from .routes.messages import messages_bp
 from .routes.users import users_bp
 
+from .models import message, user, team, participant
 
 def create_app():
     app = Flask(__name__)
